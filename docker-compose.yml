@@ -7,4 +7,4 @@ services:
     ports:
       - '3000:3000'
     environment:
-      NEXT_PUBLIC_BACKEND: http://10.204.194.47:8080 
+      NEXT_PUBLIC_BACKEND: http://buzz-back-2:8080 

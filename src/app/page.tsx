@@ -15,7 +15,7 @@ export default async function Home() {
   }
   let res_table;
   try {
-    res_table = await axios.get(`http://10.204.194.47:8080/home/analysis`, { headers: { "Authorization": `Bearer ${access.value}` } });
+    res_table = await axios.get(`http://buzz-back-2:8080/home/analysis`, { headers: { "Authorization": `Bearer ${access.value}` } });
 
   } catch (e: any) {
     console.log(e)
